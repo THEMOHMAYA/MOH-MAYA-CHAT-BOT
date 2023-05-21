@@ -59,7 +59,7 @@ async def restart(client, m: Message):
     await asyncio.sleep(0.1)
     await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐞𝐝.✓")
     await asyncio.sleep(0.2)
-    await accha.edit("🥵𝙽𝙾𝚆 𝙲𝙾𝙼𝙴 𝙷𝙴𝚁𝙴 👉 @TG_FRIENDSS🥀 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙶𝙸𝚁𝙻𝙵𝚁𝙸𝙴𝙽𝙳🌹💋")
+    await accha.edit("🥵𝙽𝙾𝚆 𝙲𝙾𝙼𝙴 𝙷𝙴𝚁𝙴 👉 @LOVE'KI_DUNIYA🥀 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙶𝙸𝚁𝙻𝙵𝚁𝙸𝙴𝙽𝙳🌹💋")
        
 @bot.on_message(
     filters.command(["chatbot off", f"chatbot@{BOT_USERNAME} off"], prefixes=["/", ".", "?", "-"])
@@ -332,5 +332,5 @@ async def vickprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"🎄𝗩𝗜𝗣 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝗚𝗢 𝗔𝗡𝗗 𝗙𝗨𝗖𝗞🎄 ")      
+print(f"🎄 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝗚𝗢 𝗔𝗡𝗗 𝗙𝗨𝗖𝗞🎄 ")      
 bot.run()
